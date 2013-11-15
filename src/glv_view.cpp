@@ -541,7 +541,7 @@ View& View::name(const std::string& v){
 
 
 void View::onResizeRect(space_t dx, space_t dy){
-	onResize(dx,dy);
+//	onResize(dx,dy);
 	// Move/resize anchored children
 	// This will recursively call onResize's through the entire descendency tree
 	View * v = child;	
